@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    font-family: Arial, Tahoma, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*............HEADER..........*/
+
+.header_bg {
+    height: 887px;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+}
+
+
+.logo {
+    margin-bottom: 65px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.navigation {
+    margin-bottom: 61px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navigation ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 144px;
+}
+
+.navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover {
+    /*    text-decoration: underline;*/
+    border-bottom: 2px solid #fff;
+}
+
+.navigation ul .li-industrial {
+    margin-right: 137px;
+}
+
+.navigation ul .li-infrastructure {
+    margin-right: 125px;
+}
+
+.header_heading {
+    width: 420px;
+    line-height: 1.2;
+}
+
+.header_heading h1 {
+    font-size: 52px;
+    color: #fff;
+    text-shadow: 0px 1px 1px rgba(46, 107, 130, 0.4);
+    font-weight: normal;
+    letter-spacing: -0.2px;
+}
+
+.header_heading p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(53, 125, 152, 0.4);
+    line-height: 1.786;
+    padding-right: 33px;
+    letter-spacing: 0.16px;
+}
+
+/*............//HEADER..........*/
+
+/*............MAIN PART..........*/
+
+.main_part_pading {
+    padding-top: 104px;
+    padding-bottom: 82px;
+}
+
+.column_left {
+    float: left;
+    width: 310px;
+    border-right: 1px solid #eaeaea;
+    padding-right: 40px;
+    padding-bottom: 140px;
+    font-size: 20px;
+    font-style: italic;
+    color: #fe992a;
+}
+
+.column_left p {
+    font-size: 20px;
+    font-style: italic;
+    color: #fe992a;
+    line-height: 1.4;
+}
+
+.column_right {
+    float: right;
+    width: 650px;
+    padding-left: 58px;
+}
+
+.column_right h2 {
+    font-size: 24px;
+    color: rgb(254, 153, 42);
+    line-height: 1;
+    font-weight: 400;
+    padding-top: 3px;
+    letter-spacing: -0.08px;
+}
+
+.column_right p {
+    font-size: 14px;
+    color: rgb(115, 124, 133);
+    line-height: 2;
+    padding-top: 20px;
+    padding-left: 3px;
+    letter-spacing: 0.11px;
+}
+
+.column_right p a {
+    color: rgb(115, 124, 133);
+    text-decoration: none;
+    border-bottom: 2px solid #c1c5c8;
+}
+
+.column_right p a:hover {
+    color: #ffba00;
+    border-bottom: 2px solid #ffba00;
+}
+
+/*............//MAIN PART..........*/
+
+/*............FOOTER..........*/
+
+.footer_bg {
+    background-color: #e97e7c;
+    padding-top: 45px;
+    padding-bottom: 180px;
+    background-image: url("../img/bg_footer.jpg");
+    background-repeat: repeat;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer_bg a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_bg a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.footer_bg h4 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1;
+    margin-top: 1px;
+    margin-bottom: 11px;
+}
+
+.column_contact {
+    float: left;
+    width: 310px;
+}
+
+.column_menu {
+    float: left;
+    width: 80px;
+    margin-right: 62px;
+}
+
+.column_menu:last-child {
+    margin-right: 0;
+}
+
+.column_contact p {
+    margin-bottom: 10px;
+    line-height: 18px;
+}
+
+.column_contact ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.column_contact ul li {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.long-word span {
+    line-height: 38px;
+}
+
+.column_menu ul .long-word {
+    margin-bottom: 0px;
+}
+
+.column_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.column_menu ul li {
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.column_menu ul li a {
+    color: #fff;
+}
+
+.column_menu ul li a:hover {}
+
+/*............//FOOTER..........*/

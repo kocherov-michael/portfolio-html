@@ -1,0 +1,97 @@
+.header__sky {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 93px;
+    background: radial-gradient(circle closest-corner at 40% 200%, #fdfce1 30%, #0088ba);
+    opacity: 0;
+
+    animation: opacity 60s linear 10s infinite alternate;
+    
+    @media (min-width: 768px){
+        height: 133px;
+    }
+    
+    @media (min-width: 1200px){
+        height: 191px;
+    }
+}
+
+.header__dropplace {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    
+    @media (min-width: 768px){
+        height: 120px;
+    }
+    
+    @media (min-width: 1200px){
+        height: 175px;
+    }
+}
+
+.drop {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #35758F;
+    opacity: 0.05;
+    animation: opacity 2s linear 1s infinite alternate;
+    
+    @media (min-width: 768px){
+        width: 24px;
+        height: 24px;
+    }
+    
+    @media (min-width: 1200px){
+        width: 34px;
+        height: 34px;
+    }
+}
+@keyframes opacity {
+from {opacity: 0.00;}
+to {opacity: 0.4;}
+}
+.drop--position-1{
+    top: 50%;
+    right: 33%;
+    animation-delay: 2s;
+}
+.drop--position-2{
+    top: 10%;
+    right: 30%;
+    animation-delay: 3s;
+}
+.drop--position-3{
+    top: 40%;
+    right: 10%;
+    animation-delay: 4s;
+}
+.drop--position-4{
+    top: 30%;
+    left: 25%;
+    animation-delay: 1s;
+}
+.drop--position-5{
+    top: 20%;
+    left: 5%;
+    animation-delay: 2.5s;
+}
+.drop--position-6{
+    top: 55%;
+    left: 15%;
+    animation-delay: 7s;
+}
+.drop--position-7{
+    top: 40%;
+    left: 42%;
+    animation-delay: 1.5s;
+}
+.drop--position-8{
+    top: 30%;
+    right: 40%;
+    animation-delay: 6s;
+}
