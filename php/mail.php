@@ -36,7 +36,7 @@ $headers = "MIME-Version: 1.0" . PHP_EOL .
 
 // Sending email to admin
 mail($admin_email, adopt($form_subject), $message, $headers );
-
+	
 function saveUserDataInFile($text){
 	$f = fopen('form-fill.html', 'a+');
 	fwrite($f, date('Y-m-d H:i:s') . "\n");
